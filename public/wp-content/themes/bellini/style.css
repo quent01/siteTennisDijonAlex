@@ -305,6 +305,7 @@ body {
 .bellini__canvas {
     max-width: 1100px;
     margin: auto;
+    background-color: white;
 }
 
 fieldset {
