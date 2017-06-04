@@ -1681,6 +1681,7 @@ a:hover.page-numbers {
     background-position: center center;
     background-size: cover;
 	position: relative;
+	text-align: center;
 }
 .page__header::before{
 	content: "";
@@ -1690,10 +1691,22 @@ a:hover.page-numbers {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(255, 255, 255, 0.4);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 .page__header > div{
 	position: relative;
+}
+.page__header .single-page__title{
+	display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 0.5em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-style: solid;
+    border-width: 1px;
 }
 
 /*--------------------------------------------------------------
@@ -2374,6 +2387,7 @@ object {
 .edit-link {
     padding: .6em;
     border-radius: 4px;
+    display: block;
 }
 
 .post-edit-link:before {
